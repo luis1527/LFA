@@ -941,21 +941,25 @@ Significa:
 
 Antes de avançar para a próxima aula, verifique se você consegue explicar:
 
-* [ ] O que é um **alfabeto `Σ`**;
-* [ ] O que é uma **cadeia**;
-* [ ] O que significa **`ε`**;
-* [ ] Por que **`|ε| = 0`**;
-* [ ] O que é um **prefixo**;
-* [ ] O que é um **sufixo**;
-* [ ] O que significa **`Σ*`**;
-* [ ] Se `Σ*` possui limite de tamanho;
-* [ ] O que é uma **linguagem formal `L`**;
-* [ ] O que significa **`L ⊆ Σ*`**;
-* [ ] O que é uma **gramática formal**;
-* [ ] O que são **terminais e não terminais**;
-* [ ] O que é uma **regra de produção**;
-* [ ] Como ler **`S → aS | ε`**;
-* [ ] Como gerar palavras usando uma gramática.
+* [ ] O que é um **alfabeto `Σ`**;  Um alfabeto Σ é um conjunto finito de símbolos
+* [ ] O que é uma **cadeia**;       uma cadeia é uma sequência desses símbolos
+* [ ] O que significa **`ε`**;       ε é a cadeia vazia, que possui tamanho 0, ou seja, |ε| = 0
+* [ ] Por que **`|ε| = 0`**;      Porque ε não possui nenhum símbolo, então seu tamanho é 0
+* [ ] O que é um **prefixo**;      Um prefixo é o início de uma cadeia 
+* [ ] O que é um **sufixo**;      um sufixo é o final da cadeia 
+* [ ] O que significa **`Σ*`**;     Σ* representa o conjunto de todas as cadeias possíveis formadas com símbolos de Σ
+* [ ] Se `Σ*` possui limite de tamanho;    ε, e não possui limite de tamanho.
+* [ ] O que é uma **linguagem formal `L`**; Uma linguagem formal L é um conjunto de cadeias
+* [ ] O que significa **`L ⊆ Σ*`**;   L ⊆ Σ* significa que todas as cadeias de L pertencem a Σ*
+* [ ] O que é uma **gramática formal**;  É um conjunto de regras usadas para gerar cadeias de uma linguagem.
+* [ ] O que são **terminais e não terminais**; É um conjunto de regras usadas para gerar cadeias de uma linguagem.
+* [ ] O que é uma **regra de produção**; É uma regra que indica como um símbolo pode ser substituído por outros símbolos.
+* [ ] Como ler **`S → aS | Significa que S pode ser substituído por aS ou por ε.
+* [ ] Como gerar palavras usando uma gramática.  Começamos pelo símbolo inicial e aplicamos as regras de produção até não restarem mais símbolos não terminais.
+
+
+
+
 
 ---
 
