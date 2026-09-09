@@ -139,3 +139,34 @@ gere: a
 
 aaab
 
+S ⇒ aS ⇒ aaS ⇒ aaaS
+
+$S \Rightarrow b$
+
+$aaaS \Rightarrow b$
+
+S ⇒ aS ⇒ aaS ⇒ aaaS ⇒ aaab
+
+Considere novamente:
+
+G:{S ⇒ 0SS ⇒ 1}
+
+1. 1 - S ⇒ 1
+2. 01 - Não pode ser gerada
+3. 001 - Não pode ser gerada
+4. 0001 - Não pode ser gerada
+5. 101 - Não pode ser gerada
+6. 1001 - Não pode ser gerada
+
+Desafio Final 
+
+Considere:
+
+G: {S ⇒ aSS}
+
+1. S ⇒ b
+2. Não pode ser gerada
+3. Não pode ser gerada
+4. Não pode ser gerada
+5. Não pode ser gerada
+6. Não pode ser gerada
